@@ -10,7 +10,7 @@ Challenges will be linked to from this README document. You'll be sent into the 
 
 ### Implement a Datastructure
 - [Graph]()
-- [Set]()
+- [Set](./questions/implement_a_set)
 - [Linked List]()
 - [Hash Map]()
 - [Binary Tree]()
