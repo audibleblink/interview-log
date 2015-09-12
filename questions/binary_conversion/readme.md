@@ -1,6 +1,6 @@
 ## Number-to-Binary Converter
 
-Binary numbers are a Base-2 number system. To complete this challenge you must understand how binary works. See this additional resource
+Binary numbers are a Base-2 number system. To complete this challenge you must understand how binary works. See [this additional resource](https://www.youtube.com/watch?v=b6vHZ95XDwU)
 
 ### Function Signature
 
