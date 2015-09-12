@@ -1,12 +1,20 @@
 require 'rspec/autorun'
 
 def to_binary(number)
-  resp = []
+
+  response = []
   until number == 0
-    number, rem = number.divmod(2)
-    resp.unshift(rem)
+    # divmod return an array of 2 elements
+    # the first is the divisor and the second
+    # is the remainder (modulo)
+    # Ex 11.divmod(2) => [5,1]
+    number, remainder = number.divmod(2) # 2 because binary is base 2
+    # This reassigns number on every iteration,
+    # gradually bringin us closer to 0, which
+    # is needed to satisfy our until condition
+    response.unshift(remainder)
   end
-  resp
+  response
 end
 
 
