@@ -17,4 +17,4 @@ my_set.push("foo") -> false
 
 ### Contraints
 
-- `#push` must perfom in constant-time: O(1)
+- `#push` must perform in constant-time: O(1)
