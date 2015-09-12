@@ -9,18 +9,18 @@ Challenges will be linked to from this README document. You'll be sent into the 
 ## Table of Contents
 
 ### Implement a Datastructure
-- [Graph]()
+- [Graph](./questions/implement_a_graph)
 - [Set](./questions/implement_a_set)
-- [Linked List]()
-- [Hash Map]()
-- [Binary Tree]()
+- [Linked List](./questions/)
+- [Hash Map](./questions/implement_a_hash)
+- [Binary Tree](./questions/binaryTree)
 
 ### Logic
-- [Make Change]()
-- [Squared Sums]()
-- [Binary Conversion]()
-- [Brace Checker]()
-- [Number is a Palindrome?]()
-- [Prime Factors]()
-- [Reverse a String]()
-- [Second to Last]()
+- [Make Change](./questions/makeChange)
+- [Squared Sums](./questions/squaredSum)
+- [Binary Conversion](./questions/binary_conversion)
+- [Brace Checker](./questions/brace_checker)
+- [Number is a Palindrome?](./questions/palindrome_number)
+- [Prime Factors](./questions/prime_factors)
+- [Reverse a String](./questions/reverse_a_string)
+- [Second to Last](./questions/second_to_last)
