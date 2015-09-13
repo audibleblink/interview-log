@@ -9,7 +9,7 @@ Feel free to submit a pull request with your annotated solution in another langu
 
 ## How to Whiteboard
 
-An interviewer at Google once laid out some really useful tips for Whiteboarding. Running through these step with an interviewer helps keep you moving forward. By asking for the following, you begin to see the many parts of your problem and you can begin mapping what it's going to take to solve it. It also gives you some canned phrases that you can use that show the interviewer you're thinking about things like interface and complexity while you code. Win/win.
+An interviewer at Google once laid out some really useful tips to me for Whiteboarding. Running through these step with an interviewer helps keep you moving forward. By asking for the following, you begin to see the many parts of your problem and you can begin mapping out what it's going to take to solve it. It also gives you some canned phrases that you can use that show the interviewer you're thinking about things like interface and complexity while you code. Win/win.
 
 - Ask for the function signature
   - What are the inputs?
@@ -50,7 +50,11 @@ Challenges will be linked to from this README document. You'll be sent into the 
 - [Reverse a String](./questions/reverse_a_string)
 - TODO: [Second to Last](./questions/second_to_last)
 
-### How Does The Internet Work?
+### How Does The Web Work?
+
+Also know as
+
+> What happens when I type 'google.com' in a browser bar and hit enter
 
 This is a common one. Below is a tl:dr that satisfies most interviewers. The deeper you go though, the better. [Here's an insanely detailed event stream.](https://github.com/alex/what-happens-when)
 
@@ -87,3 +91,4 @@ This is a common one. Below is a tl:dr that satisfies most interviewers. The dee
   - If HTML contains links to other resources (*.js, css, images*) the process starts all over again
 
 6. Browser renders the parsed Response's payload
+  - The _load_ event is fired when a resource and its dependent resources have finished loading
