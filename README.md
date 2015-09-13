@@ -39,6 +39,7 @@ Challenges will be linked to from this README document. You'll be sent into the 
 - TODO: [Linked List](./questions/implement_a_linked_list)
 - [Hash Map](./questions/implement_a_hash)
 - TODO: [Binary Tree](./questions/binaryTree)
+- TODO: [Stack with Min](./questions/stack_with_min)
 
 ### Logic
 - [Make Change](./questions/makeChange)
