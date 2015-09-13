@@ -1,4 +1,4 @@
-## Implement a Ruby's Hash
+## Implement a Hash
 
 Ruby's hash maintains a constant-time lookup, O(1), by hashing keys and placing them in buckets in an array. If I look for the key `:foo` inside of `myhash` like this: `myhash[:foo]`, `foo` is converted to a number, or hash, and placed in a bucket based on that number. When I ask to read `:foo`, Ruby will once again convert it to a hashed number. Ruby knows exactly where to look for that hashed number, so it goes and retrieves it.
 
