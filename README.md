@@ -1,11 +1,15 @@
 # Interview Logs
 
-I have this strange obsession with collecting interview/whiteboard questions. Maybe it's the ability to come back to the problem days later and see a different more practical/efficient solution; it never really feels like I'm _done_. In any case, here are a couple of questions I've collected over the past few weeks during my latest job hunt. They're not separated by language since the problems themselves aren't language specific, but not all are written in the same language. Feel free to submit a pull request with your annotated solution in another language.
+I have this strange obsession with collecting interview/whiteboard questions. Here are a couple of questions I've collected over the past few weeks during my latest job hunt.
+
+They're not separated by language since the problems themselves aren't language specific, but not all of them are written in the same language.
+
+Feel free to submit a pull request with your annotated solution in another language.
 
 
 ## How to Whiteboard
 
-An interviewer at Google once laid out some really important tips for whiteboarding. Running through these step with your interviewer helps you move forward with the problem. By asking for the following, you begin to see the many parts of your problem and you can begin mapping what it's going to take tp solve this. It also gives you some canned phrases that show the interviewer that you think about thing like interface and complexity when you code. Win/win.
+An interviewer at Google once laid out some really useful tips for Whiteboarding. Running through these step with an interviewer helps keep you moving forward. By asking for the following, you begin to see the many parts of your problem and you can begin mapping what it's going to take to solve it. It also gives you some canned phrases that you can use that show the interviewer you're thinking about things like interface and complexity while you code. Win/win.
 
 - Ask for the function signature
   - What are the inputs?
@@ -17,9 +21,9 @@ An interviewer at Google once laid out some really important tips for whiteboard
 - Clarify constraints
   - Is the interviewer more concerned with HOW you solve it, or simply THAT you solve it?
   - What complexity is acceptable?
-- Talk as much as possible
+- Talk it out as much as possible
 
-I've written these out for most of the questions. My hope is that Whiteboarding without this information seems foreign to you and asking for this information is second nature.
+I've written these out for most of the questions here. My hope is that Whiteboarding without this information seems foreign to you and asking for this information becomes second nature.
 
 
 ## Repo Structure
