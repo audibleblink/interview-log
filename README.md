@@ -32,16 +32,16 @@ Challenges will be linked to from this README document. You'll be sent into the 
 ### Implement a Datastructure
 - [Graph](./questions/implement_a_graph)
 - [Set](./questions/implement_a_set)
-- TODO: [Linked List](./questions/)
+- TODO: [Linked List](./questions/implement_a_linked_list)
 - [Hash Map](./questions/implement_a_hash)
 - TODO: [Binary Tree](./questions/binaryTree)
 
 ### Logic
-- TODO: [Make Change](./questions/makeChange)
+- [Make Change](./questions/makeChange)
 - [Squared Sums](./questions/squaredSum)
 - [Binary Conversion](./questions/binary_conversion)
 - [Brace Checker](./questions/brace_checker)
 - [Number is a Palindrome?](./questions/palindrome_number)
 - [Prime Factors](./questions/prime_factors)
-- TODO: [Reverse a String](./questions/reverse_a_string)
+- [Reverse a String](./questions/reverse_a_string)
 - TODO: [Second to Last](./questions/second_to_last)
