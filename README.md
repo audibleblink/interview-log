@@ -9,26 +9,21 @@ Feel free to submit a pull request with your annotated solution in another langu
 
 ## How to Whiteboard
 
-An interviewer at Google once laid out some really useful tips to me for Whiteboarding. Running through these step with an interviewer helps keep you moving forward. By asking for the following, you begin to see the many parts of your problem and you can begin mapping out what it's going to take to solve it. It also gives you some canned phrases that you can use that show the interviewer you're thinking about things like interface and complexity while you code. Win/win.
+An interviewer at Google once laid out some really useful tips to me for Whiteboarding. Running through these steps with an interviewer helps keep you moving forward. By asking for the following, you begin to see the many parts of your problem and you can begin mapping out what it's going to take to solve it. It also gives you some canned phrases that you can use that show the interviewer you're thinking about things like interface and complexity while you code. Win/win.
 
-- Ask for the function signature
-  - What are the inputs?
-  - What Type are the inputs?
-  - What Type is the return?
-- Ask for examples
-  - Useful because you can turn these into tests
-  - If you're on something like Stypi or Coderpad, ALWAYS write your tests first
-- Clarify constraints
-  - Is the interviewer more concerned with HOW you solve it, or simply THAT you solve it?
-  - What complexity is acceptable?
-- Talk it out as much as possible
+> - Ask for the function signature
+>   - What are the inputs?
+>   - What Type are the inputs?
+>   - What Type is the return?
+> - Ask for examples
+>   - Useful because you can turn these into tests
+>   - If you're on something like Stypi or Coderpad, ALWAYS write your tests first
+> - Clarify constraints
+>   - Is the interviewer more concerned with HOW you solve it, or simply THAT you solve it?
+>   - What complexity is acceptable?
+> - Talk it out as much as possible
 
-I've written these out for most of the questions here. My hope is that Whiteboarding without this information seems foreign to you and asking for this information becomes second nature.
-
-
-## Repo Structure
-
-Challenges will be linked to from this README document. You'll be sent into the `challenges/$CHALLEGE` folder, which will contain its own README, outlying the problem and any constraints and examples. I'll do my best to act as the actual interviewer by only supplying enough information to complete the challenge. Each folder will also contain a solution file. You probably shouldn't look at this until you've given the problem a shot.
+I've written these out for most of the questions here. My hope is that Whiteboarding without this information becomes foreign to you and asking for this information becomes second nature.
 
 
 ## Table of Contents
