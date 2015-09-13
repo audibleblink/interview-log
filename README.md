@@ -76,7 +76,7 @@ This is a common one. Below is a tl:dr that satisfies most interviewers. The dee
   - OS routes packet coming in on port 80 to a Web Server that's listening on port 80
   - Web Server routes request to some middleware
   - Middleware parses incoming string into Headers and Payloads and hands off to a Web Application Server
-  - Web App routes incoming request to appropriate action based on the Method used (GET)
+  - Web App routes incoming request to appropriate action based on the Method and Action used (GET /dogs)
   - Web App server generates a Response based on input
   - Server responds to Request by sending back a Response
 
