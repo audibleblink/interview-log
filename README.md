@@ -55,25 +55,28 @@ Challenges will be linked to from this README document. You'll be sent into the 
 This is a common one. Below is a tl:dr that satisfies most interviewers. The deeper you go though, the better. [Here's an insanely detailed event stream.](https://github.com/alex/what-happens-when)
 
 ##### tl;dr
-1. Browser needs an IP
-  - DNS resolution chain: browser cache > local HOSTS file > Router's DNS > ISPs DNS
-  - Using ISP: Network stack uses ARP to find its configured DNS server
+1. IP address needed
+  - DNS resolution chain: browser cache >> local HOSTS file >> Router's DNS >> ISPs DNS
+  - Network stack uses ARP to find its configured DNS server if address not cached
   - IP address is found for hostname `google.com`
 
 2. Browser asks OS to open a TCP connection to the resolved IP address
-  - With an IP address:
+  - With an IP address, typical TCP connection flow follows:
     - OS calls the network stack to search for the next hop using a SYN request
     - SYNs and ACKs are traded between network nodes until the destination sever is reached
     - Path to host is now known
   - Server responds that it's ready to receive data
-  - OS/Browser receive signal that the server is ready to receive
+  - OS/Browser receives signal that the server is ready to receive data
 
 3. HTTP protocol is started; GET request sent
   - Requests can contain headers (cookies, user-agents, tokens, query params)
-  - If request is POST, can contain a payload in addition to headers
+  - If Request is POST, it can contain a Payload in addition to Headers
 
 4. Server receives GET through the TCP/IP protocol
-  - Web Server routes incoming request to appropriate action based on the Method used to address the server
+  - OS routes packet coming in on port 80 to a Web Server that's listening on port 80
+  - Web Server routes request to some middleware
+  - Middleware parses incoming string into Headers and Payloads and hands off to a Web Application Server
+  - Web App routes incoming request to appropriate action based on the Method used (GET)
   - Web App server generates a Response based on input
   - Server responds to Request by sending back a Response
 
