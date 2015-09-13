@@ -1,6 +1,6 @@
 # Interview Logs
 
-I have this strange obsession with collecting interview/whiteboard questions. Here are a couple of questions I've collected over the past few weeks during my latest job hunt.
+I have this strange obsession with collecting interview/whiteboard questions. Here are a couple of questions I've collected over the past few weeks.
 
 They're not separated by language since the problems themselves aren't language specific, but not all of them are written in the same language.
 
@@ -49,3 +49,38 @@ Challenges will be linked to from this README document. You'll be sent into the 
 - [Prime Factors](./questions/prime_factors)
 - [Reverse a String](./questions/reverse_a_string)
 - TODO: [Second to Last](./questions/second_to_last)
+
+### How Does The Internet Work?
+
+This is a common one. Below is a tl:dr that satisfies most interviewers. The deeper you go though, the better. [Here's an insanely detailed event stream.](https://github.com/alex/what-happens-when)
+
+##### tl;dr
+1. Browser needs an IP
+  - DNS resolution chain: browser cache > local HOSTS file > Router's DNS > ISPs DNS
+  - Using ISP: Network stack uses ARP to find its configured DNS server
+  - IP address is found for hostname `google.com`
+
+2. Browser asks OS to open a TCP connection to the resolved IP address
+  - With an IP address:
+    - OS calls the network stack to search for the next hop using a SYN request
+    - SYNs and ACKs are traded between network nodes until the destination sever is reached
+    - Path to host is now known
+  - Server responds that it's ready to receive data
+  - OS/Browser receive signal that the server is ready to receive
+
+3. HTTP protocol is started; GET request sent
+  - Requests can contain headers (cookies, user-agents, tokens, query params)
+  - If request is POST, can contain a payload in addition to headers
+
+4. Server receives GET through the TCP/IP protocol
+  - Web Server routes incoming request to appropriate action based on the Method used to address the server
+  - Web App server generates a Response based on input
+  - Server responds to Request by sending back a Response
+
+5. Browser receives Response (big string)
+  - Response/String is parsed into Response Headers and a Payload
+  - Headers are read; cookies stored, etc
+  - Browser parses the Payload (HTML)
+  - If HTML contains links to other resources (*.js, css, images*) the process starts all over again
+
+6. Browser renders the parsed Response's payload
