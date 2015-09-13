@@ -15,6 +15,10 @@ class MyHash
   # reading method
   def [](key)
 
+    # ideally, we only have one pair stored in this bucket
+    # because any more and we resort to a linear search in
+    # that bucket. Having more than one key-value pair in a
+    # bucket is know as a hash collision
     pair = buckets[index(key)].find do |inner_key, val|
       inner_key == key
     end
@@ -58,6 +62,22 @@ class MyHash
         add(key, value)
       end
     end
+  end
+
+end
+
+
+RSpec.describe MyHash do
+  let(:hash) {MyHash.new}
+
+  it "reads from a hash" do
+    hash.send(:add, :foo, :bar)
+    expect(hash[:foo]).to eq :bar
+  end
+
+  it "writes to a hash" do
+    hash[:hello] = "world"
+    expect(hash[:hello]).to eq "world"
   end
 
 end
