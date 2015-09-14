@@ -14,14 +14,18 @@ function sumSquared(number) {
 
 function factorsFor(num) {
   var factors = [];
-  for (var pf = 0; pf < Math.sqrt(num); pf++) {
+  for (var pf = 0; pf <= Math.sqrt(num); pf++) {
     if (num % pf == 0) {
       // If we can find a lower factor, we can infer its
       // inverse factor by dividing num by the lower factor.
       // Because of this, we only ever need to iterate upto
       // the square root of n, making this O(log n)
       factors.push(pf)
-      factors.push(num / pf)
+
+      // Make sure perfect squares are not pushed twice.
+      if (pf !== num / pf) {
+        factors.push(num / pf)
+      }
     }
   }
   return factors
