@@ -33,7 +33,7 @@ I've written these out for most of the questions here. My hope is that Whiteboar
 - [Set](./questions/implement_a_set)
 - TODO: [Linked List](./questions/implement_a_linked_list)
 - [Hash Map](./questions/implement_a_hash)
-- TODO: [Binary Tree](./questions/binaryTree)
+- [Binary Tree](./questions/binary_tree)
 - TODO: [Stack with Min](./questions/stack_with_min)
 
 ### Logic
