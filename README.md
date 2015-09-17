@@ -34,7 +34,7 @@ I've written these out for most of the questions here. My hope is that Whiteboar
 - TODO: [Linked List](./questions/implement_a_linked_list)
 - [Hash Map](./questions/implement_a_hash)
 - [Binary Tree](./questions/binary_tree)
-- TODO: [Stack with Min](./questions/stack_with_min)
+- [Stack with Min](./questions/stack_with_min)
 
 ### Logic
 - [Make Change](./questions/makeChange)
