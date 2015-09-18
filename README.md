@@ -31,7 +31,7 @@ I've written these out for most of the questions here. My hope is that Whiteboar
 ### Implement a Datastructure
 - [Graph](./questions/implement_a_graph)
 - [Set](./questions/implement_a_set)
-- TODO: [Linked List](./questions/implement_a_linked_list)
+- [Linked List](./questions/implement_a_linked_list)
 - [Hash Map](./questions/implement_a_hash)
 - [Binary Tree](./questions/binary_tree)
 - [Stack with Min](./questions/stack_with_min)
